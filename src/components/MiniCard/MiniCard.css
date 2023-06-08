@@ -1,0 +1,37 @@
+.miniCard {
+  height: 108px;
+  width: 104px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.miniCard img {
+  height: 72px;
+  width: 72px;
+  position: relative;
+  left: 16px;
+}
+.pokemonNumber {
+  text-align: end;
+  font-size: 8px;
+  color: #1d1d1d;
+  padding-top: 3px;
+  padding-right: 5px;
+}
+.pokemonName {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.shadow {
+  width: 100%;
+  height: 44px;
+  background-color: #efefef;
+  border-radius: 8px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.imgNmberContainer {
+  height: 64px;
+  width: 104px;
+}

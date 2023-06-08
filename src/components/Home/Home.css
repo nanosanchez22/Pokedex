@@ -1,0 +1,91 @@
+.backgroundRed {
+  width: 390px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  background-color: #dc0a2d;
+}
+.containerColumn {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 380px;
+  height: 125px;
+  color: white;
+  margin-bottom: 20px;
+}
+.pokeballHome {
+  height: 24px;
+  width: 24px;
+  filter: invert(1);
+  margin-left: 10px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+}
+.search {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 32px;
+  width: 100%;
+  border-radius: 10px;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  background-color: white;
+  border-radius: 20px;
+}
+.buttonBar {
+  height: 32px;
+  width: 32px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.inputBar {
+  height: 32px;
+  width: 260px;
+  border: none;
+  outline: none;
+  -webkit-search-cancel-button-appearance: red;
+}
+.hashtagButton {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.buttonBar2 {
+  height: 32px;
+  width: 32px;
+  border: none;
+  background-color: white;
+  border-radius: 50%;
+}
+.whiteBackgroun {
+  padding: 1rem;
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+  width: 380px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
